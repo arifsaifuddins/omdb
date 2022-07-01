@@ -1,0 +1,63 @@
+.navbar-toggler,
+.navbar-toggler:focus,
+.search,
+.search:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+input.search,
+input.search:focus {
+  background-color: #111;
+  color: #aaa;
+}
+
+.brand {
+  color: #aaa;
+}
+
+.btn-search {
+  background-color: #aaa;
+  box-shadow: 0 0 10px #333;
+}
+
+footer {
+  background-color: #333;
+  height: max-content;
+  padding: 10px;
+  padding-bottom: 0;
+  color: #aaa;
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+body {
+  background-color: #555;
+  padding-bottom: 60px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.deskripsi {
+  background-color: rgba(85, 85, 85, 0.596);
+  height: max-content;
+}
+
+h1.label {
+  color: #111;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #aaa;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.modal-content,
+.list-group-item {
+  background-color: #333;
+  color: #aaa;
+}

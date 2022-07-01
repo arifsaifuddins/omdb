@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DB Movies</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="./movies-icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid container">
+      <a class="navbar-brand me-5 pe-5 d-flex" href="#">
+        <img src="./movies-icon.png" width="30" height="35">
+        <div class="brand ms-2"> DB Movies</div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="input-group src-bar ">
+          <input type="text" class="form-control search input-search" autofocus placeholder="Input a Movie...">
+          <button class="btn search btn-search" type="button" id="button-addon2">Search</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row mb-3 mt-5 justify-content-center">
+      <div class="col mt-5">
+        <h1 class="label text-center mt-5"></h1>
+      </div>
+    </div>
+
+    <div class="row movie mb-5">Tap Icon Search There...</div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLabel">Movie Detail</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="text-center text-search">Created by Arief Saifuddien</p>
+    <p class="text-center text-search">Copyright 2022, Khartoum | Sudan</p>
+  </footer>
+
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/jquery.js"></script>
+  <script src="./js/script.js"></script>
+</body>
